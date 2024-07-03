@@ -1,0 +1,30 @@
+.interests li {
+	color: #fff;
+	background: #ff0084;
+	background: -webkit-linear-gradient(to right, #33001b, #ff0084);
+	background: linear-gradient(to right, #33001b, #ff0084);
+	animation: gradientAnimationMain 15s ease infinite;
+}
+
+@keyframes gradientAnimationLi {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.interests li:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	transition: ease-in 0.5s;
+}
+
+.interestsList {
+	display: flex;
+	gap: 3px;
+	flex-direction: column;
+}
