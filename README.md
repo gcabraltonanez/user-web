@@ -3,7 +3,7 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/gcabraltonanez/user-web.git
 ```
 
 Ir al directorio del proyecto
